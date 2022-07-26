@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Ubuntu:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Ubuntu:wght@300;700&display=swap"
       rel="stylesheet"
     />
     <style type="text/css">
@@ -47,6 +47,22 @@
         padding: 1em;
         margin: 2em;
       }
+      .callout {
+        border: 1px solid #cbcbf9;
+        background: #17181f;
+        border-radius: 4px;
+        padding: 1rem;
+        margin: 2rem 0 2rem -1rem;
+      }
+      .callout a {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+      }
+      .callout a:hover {
+        text-decoration: underline;
+      }
       @media (max-width: 1100px) {
         body {
           background-size: auto min(100%, 600px);
@@ -83,6 +99,12 @@
         <p id="tagline">
           A local community for talking about the things that excite us about
           frontend development
+        </p>
+        <p class="callout">
+          <a
+            href="https://www.eventbrite.com/e/philadelphia-javascript-club-tickets-387233926097"
+            >Join us on August 11th for our next meeting!</a
+          >
         </p>
         <p><a href="mailto:phillyjsclub@joewoods.dev">Drop us a line</a></p>
       </div>
