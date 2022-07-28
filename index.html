@@ -63,6 +63,10 @@
       .callout a:hover {
         text-decoration: underline;
       }
+      .links {
+        background: #151515;
+        width: max-content;
+      }
       @media (max-width: 1100px) {
         body {
           background-size: auto min(100%, 600px);
@@ -81,7 +85,7 @@
       }
       @media (max-width: 850px) {
         #center {
-          padding-top: 10vh;
+          padding-top: 0;
         }
       }
       @media (max-height: 800px) and (max-width: 550px) {
@@ -106,7 +110,12 @@
             >Join us on August 11th for our next meeting!</a
           >
         </p>
-        <p><a href="mailto:phillyjsclub@joewoods.dev">Drop us a line</a></p>
+        <p class="links">
+          <a href="https://github.com/philly-js-club/code-of-conduct"
+            >Code of Conduct</a
+          ><br />
+          <a href="mailto:phillyjsclub@joewoods.dev">Drop us a line</a>
+        </p>
       </div>
     </div>
   </body>
