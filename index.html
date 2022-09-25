@@ -81,15 +81,15 @@
         border-radius: 4px;
         padding: 1rem;
         margin: 2rem 0 2rem -1rem;
-      }
-      .callout a {
         font-family: "Ubuntu", sans-serif;
-        font-weight: bold;
-        text-decoration: none;
         color: white;
       }
-      .callout a:hover {
-        text-decoration: underline;
+      a.callout-link {
+        text-decoration: none;
+      }
+      a:hover.callout-link .callout {
+        border: 1px solid #dbdbff;
+        background: #22232a;
       }
       .links {
         background: #151515;
@@ -132,12 +132,17 @@
           A local community for talking about the things that excite us about
           frontend development
         </p>
-        <!-- <p class="callout">
-          <a
-            href="https://www.eventbrite.com/e/philadelphia-javascript-club-tickets-400972919797"
-            >Join us on September 8th for our next meeting!</a
-          >
-        </p> -->
+
+        <a
+          href="https://www.eventbrite.com/e/philadelphia-javascript-club-tickets-420958005727"
+          class="callout-link"
+        >
+          <div class="callout">
+            <b>Join us on October 13th for our next social meeting!</b>
+            <br /><br />
+            Join us on Slack for the meeting agenda
+          </div>
+        </a>
         <p class="links">
           <a href="https://github.com/philly-js-club/code-of-conduct"
             >Code of Conduct</a
